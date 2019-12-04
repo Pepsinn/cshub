@@ -1,1 +1,36 @@
-<iframe src="https://quintadb.com/widgets/a-W4NcHCnkBioFWOS9s159/asfGBcT8navikcW6dcTCod" height = 900 width = 1500 frameborder = 0> </iframe>
+<!DOCTYPE HTML>  
+<html>
+<head>
+</head>
+<body>  
+
+<?php
+// define variables and set to empty values
+$key = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $key = test_input($_POST["key"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
+<h2>PHP Form Validation Example</h2>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+  Key: <input type="text" name="key">
+  <br><br>
+</form>
+
+<?php
+echo "<h2>Your Input:</h2>";
+echo $key;
+
+?>
+
+</body>
+</html>
