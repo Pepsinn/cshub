@@ -6,10 +6,10 @@
 
 <?php
 // define variables and set to empty values
-$key = "";
+$name = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $key = test_input($_POST["key"]);
+  $name = test_input($_POST["name"]);
 }
 
 function test_input($data) {
@@ -22,14 +22,15 @@ function test_input($data) {
 
 <h2>PHP Form Validation Example</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Key: <input type="text" name="key">
+  Name: <input type="text" name="name">
   <br><br>
+  <input type="submit" name="submit" value="Submit">  
 </form>
 
 <?php
 echo "<h2>Your Input:</h2>";
-echo $key;
-
+echo $name;
+echo "<br>";
 ?>
 
 </body>
