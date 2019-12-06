@@ -1,7 +1,7 @@
 body {
   background-color: #090821;
-  font-family: Droid Sans;
-}
+  { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } p { font-family: "Droid Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } pre { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; 
+
 
 button {
   z-index: 1;
@@ -125,4 +125,6 @@ input:focus ~ .left {
   transform-origin: top left;
   transform: scaleY(1);
 }
+
+
 
