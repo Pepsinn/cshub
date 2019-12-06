@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+  <input type="text" id="box" placeholder="Password">
+  <span class="bottom"></span>
+  <span class="right"></span>
+  <span class="top"></span>
+  <span class="left"></span>
+</div>
+
 <link rel="stylesheet" href="/style.css">
 <SCRIPT>
 function passWord() {
 var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
+var pass1 = document.getElementById("box").value;while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "hi" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "nope") {
@@ -29,20 +40,10 @@ return " ";
 
 </FORM>
 </CENTER>
- <div>
-  <input type="text" placeholder="Input Trace">
-  <span class="bottom"></span>
-  <span class="right"></span>
-  <span class="top"></span>
-  <span class="left"></span>
-</div>
-<SCRIPT>
- 
-var n=document.getElementById(id).value;
-if (n.length < 1)
-{
-    window.alert("Field is blank");
-    return false;
-}
 
- </SCRIPT>
+ 
+<button onclick="passWord()">Submit Password</button>
+ 
+
+</body>
+</html>
