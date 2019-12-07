@@ -11,6 +11,20 @@
   </div></center>
 <br>
 <link rel="stylesheet" href="/style.css">
+  
+<SCRIPT>
+function hide() {
+  var x = document.getElementById("games");
+  x.style.display = "none";
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  
+  </SCRIPT>
+ 
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -19,7 +33,7 @@ if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
 alert('Thanks for supporting me. Enjoy your games');
-window.open('https://peterhub1.netlify.com/yC2Df14ZIN159v1nAe429C33gWG24iR145jyC2Df14ZIN159v1nAe429C33gWG24iR145j.html');
+hide()
 break;
 } 
 testV+=1;
@@ -32,23 +46,14 @@ return " ";
 } 
 </SCRIPT>
 <CENTER>
-<div id="games">
-games go here
-</div>
+
 </CENTER>
 
 <center><button onClick="passWord()">Submit Password</button></center>
-<button onclick="myFunction()">Try it</button>
-<SCRIPT>
-function myFunction() {
-  var x = document.getElementById("games");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+
   
-  </SCRIPT>
+<div id="games">
+games go here
+</div>
 </body>
 </html>
