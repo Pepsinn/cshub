@@ -32,14 +32,21 @@ return " ";
 } 
 </SCRIPT>
 <CENTER>
-<FORM>
-
-
-</FORM>
+<div id="games">
+games go here
+</div>
 </CENTER>
 
 <center><button onClick="passWord()">Submit Password</button></center>
  
-
+function myFunction() {
+  var x = document.getElementById("games");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  
 </body>
 </html>
