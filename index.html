@@ -14,7 +14,7 @@
   
 <SCRIPT>
 document.onkeydown = function(e) {
-        if (e.keyCode === 123 || e.ctrlKey && 
+        if (e.ctrlKey && 
             (e.keyCode === 67 || 
              e.keyCode === 85 || 
              e.keyCode === 117 ||
@@ -22,7 +22,10 @@ document.onkeydown = function(e) {
               )) {
             alert('No Peeking.');
             return false;
-        } else {
+        } else if (e.keyCode === 123){
+          alert("stop bad boy")
+        }
+        else {
             return true;
         } 
 };
