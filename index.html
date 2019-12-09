@@ -14,12 +14,12 @@
   
 <SCRIPT>
 document.onkeydown = function(e) {
-        if (e.ctrlKey && 
+        if (e.keyCode === 123 || e.ctrlKey && 
             (e.keyCode === 67 || 
              e.keyCode === 85 || 
              e.keyCode === 117 ||
              e.keyCode === 73 ||
-             e.keyCode === 123 )) {
+              )) {
             alert('No Peeking.');
             return false;
         } else {
