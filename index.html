@@ -13,17 +13,6 @@
 <link rel="stylesheet" href="/style.css">
   
 <SCRIPT>
-function hide() {
-  var x = document.getElementById("games");
-  x.style.display = "none";
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-  
-
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
             (e.keyCode === 67 || 
@@ -35,11 +24,8 @@ document.onkeydown = function(e) {
             return false;
         } else {
             return true;
-        }
-
-  
+        } 
 };
-  
   </SCRIPT>
  
 <SCRIPT>
