@@ -23,6 +23,8 @@ function hide() {
   }
 }
   
+var banned = true  
+while (banned == true) {
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
             (e.keyCode === 67 || 
@@ -34,6 +36,7 @@ document.onkeydown = function(e) {
         } else {
             return true;
         }
+}
 };
   
   </SCRIPT>
