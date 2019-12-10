@@ -83,10 +83,10 @@ input::placeholder {
 }
 
 span {
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 50%;
-  width: 100%;
+  width: 6.5em;
   height: 1px;
   opacity: 0;
   background-color: #fc2f70;
