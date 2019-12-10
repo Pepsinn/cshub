@@ -96,7 +96,7 @@ span::before {
   transition: transform 0.5s ease;
 }
 
-span:focus::before {
+#box:focus span::before {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
