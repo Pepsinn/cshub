@@ -94,6 +94,9 @@ span {
   left: 0;
   right: 0;
   transform: scaleX(0);
+  position: relative;
+  background-color: #fc2f70;
+  transition: transform 0.1s ease;
 }
 
 .left,
@@ -102,6 +105,9 @@ span {
   top: 0;
   bottom: 0;
   transform: scaleY(0);
+  position: relative;
+  background-color: #fc2f70;
+  transition: transform 0.1s ease;
 }
 
 .bottom {
