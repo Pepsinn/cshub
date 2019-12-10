@@ -59,14 +59,13 @@ button:hover::before {
 
 
 input {
-  width: 98%;
+  width: 6.5em;
   color: white;
   font-size: inherit;
   font-family: inherit;
-  background-color: hsl(236, 32%, 26%);
-  padding: 0.35em 0.45em;
+  background-color: transparent;
   border: 1px solid transparent;
-  transition: background-color 0.3s ease-in-out;
+  border-bottom-color: hsla(185, 100%, 62%, 0.2);
 }
 
 input:focus {
