@@ -58,15 +58,18 @@ button:hover::before {
 
 
 
+div {
+  position: relative;
+}
+
 input {
-  width: 98%;
+  width: 6.5em;
   color: white;
   font-size: inherit;
   font-family: inherit;
-  background-color: hsl(236, 32%, 26%);
-  padding: 0.35em 0.45em;
+  background-color: transparent;
   border: 1px solid transparent;
-  transition: background-color 0.3s ease-in-out;
+  border-bottom-color: hsla(185, 100%, 62%, 0.2);
 }
 
 input:focus {
@@ -78,100 +81,18 @@ input::placeholder {
 }
 
 span {
-  position: relative;
-  colour: #ffffff;
-  transition: transform 0.1s ease;
-}
-.bars {
-  position: relative;
-  background-color: #fc2f70;
-  transition: transform 0.1s ease;
-}
-
-.bottom,
-.top {
-  height: 1px;
-  left: 0;
-  right: 0;
-  transform: scaleX(0);
-  position: relative;
-  background-color: #fc2f70;
-  transition: transform 0.1s ease;
-}
-
-.left,
-.right {
-  width: 1px;
-  top: 0;
-  bottom: 0;
-  transform: scaleY(0);
-  position: relative;
-  background-color: #fc2f70;
-  transition: transform 0.1s ease;
-}
-
-.bottom {
-  bottom: 0;
-  transform-origin: bottom right;
-}
-
-input:focus ~ .bottom {
-  transform-origin: bottom left;
-  transform: scaleX(1);
-}
-
-.right {
-  right: 0;
-  transform-origin: top right;
-  transition-delay: 0.05s;
-}
-
-input:focus ~ .right {
-  transform-origin: bottom right;
-  transform: scaleY(1);
-}
-
-.top {
-  top: 0;
-  transform-origin: top left;
-  transition-delay: 0.15s;
-}
-
-input:focus ~ .top {
-  transform-origin: top right;
-  transform: scaleX(1);
-}
-
-.left {
-  left: 0;
-  transform-origin: bottom left;
-  transition-delay: 0.25s;
-}
-
-input:focus ~ .left {
-  transform-origin: top left;
-  transform: scaleY(1);
-}
-
-
-div {
-  position: relative;
-}
-
-
-span::before {
-  content: '';
   position: absolute;
-  left: 50%;
   bottom: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #fc2f70;
-  transform-origin: center;
-  transform: translate(-50%, 0) scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #3cefff;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
 }
 
-span:hover::before {
-  transform: translate(-50%, 0) scaleX(1);
+input:focus ~ span {
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
