@@ -1,7 +1,3 @@
-
-
-VV Important Dont Delete VV
-
 Username: oTsM91rADk
 
 Database name: oTsM91rADk
