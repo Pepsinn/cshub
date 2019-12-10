@@ -69,7 +69,7 @@ div {
 
 }
 
-input {
+#box {
   width: 6.5em;
   color: white;
   font-size: inherit;
@@ -79,11 +79,11 @@ input {
   border-bottom-color: hsla(341, 97%, 59%, 0.2);
 }
 
-input:focus {
+#box:focus {
   outline: none;
 }
 
-input::placeholder {
+#box::placeholder {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -100,7 +100,7 @@ span {
   transition: all 0.3s ease;
 }
 
-input:focus ~ span {
+#box:focus ~ span {
   transform: translate(-50%, 0) scaleX(1);
   opacity: 1;
 }
