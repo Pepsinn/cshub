@@ -79,7 +79,7 @@ input::placeholder {
 
 span {
   position: relative;
-  
+  colour: #ffffff;
   transition: transform 0.1s ease;
 }
 
