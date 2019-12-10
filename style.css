@@ -82,6 +82,11 @@ span {
   colour: #ffffff;
   transition: transform 0.1s ease;
 }
+.bars {
+  position: relative;
+  background-color: #fc2f70;
+  transition: transform 0.1s ease;
+}
 
 .bottom,
 .top {
