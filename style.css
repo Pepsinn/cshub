@@ -56,9 +56,7 @@ button:hover::before {
   transform: scaleX(1);
 }
 
-div {
-  position: relative;
-}
+
 
 input {
   width: 98%;
@@ -80,7 +78,7 @@ input::placeholder {
 }
 
 span {
-  position: absolute;
+  position: relative;
   background-color: #fc2f70;
   transition: transform 0.1s ease;
 }
@@ -145,9 +143,10 @@ input:focus ~ .left {
 }
 
 
-span {
+div {
   position: relative;
 }
+
 
 span::before {
   content: '';
