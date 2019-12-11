@@ -67,8 +67,10 @@ button:hover::before {
 
 }
 
-div {
+div:not #box-outer{
   position: relative;
+  margin-top: -100px;
+  margin-left: -50px;
 }
 
 input {
