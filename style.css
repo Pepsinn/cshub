@@ -69,6 +69,10 @@ button:hover::before {
 
 }
 
+div {
+  position: relative;
+}
+
 input {
   width: 6.5em;
   color: white;
