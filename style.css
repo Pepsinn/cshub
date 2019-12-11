@@ -64,8 +64,6 @@ button:hover::before {
     position: relative;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -50px;
 
 }
 
