@@ -64,13 +64,14 @@ button:hover::before {
     position: relative;
     top: 50%;
     left: 50%;
-
+    margin-top: -100px;
+    margin-left: -50px;
 }
 
 div:not #box-outer{
   position: relative;
-  margin-top: -100px;
-  margin-left: -50px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 input {
