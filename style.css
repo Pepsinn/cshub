@@ -46,8 +46,8 @@ button:hover::before {
   border-radius:50px;
 }
 
-button:hover {
-  border-radius:50px;
+button:active {
+  background-color:#fc2f70;
 }
 
 /*BUTTON
