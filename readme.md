@@ -1,8 +1,8 @@
-Username: oTsM91rADk
+Username: uxOSfp0YXc
 
-Database name: oTsM91rADk
+Database name: uxOSfp0YXc
 
-Password: gOoiKJsvSa
+Password: bibRjuaPql
 
 Server: remotemysql.com
 
