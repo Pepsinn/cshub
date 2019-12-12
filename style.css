@@ -14,7 +14,7 @@ button {
   outline: none;
   border: none;
   background-color: hsl(236, 32%, 26%);
-  transition: all 0.75s ease-in-out;
+  transition: all 0.5s ease-in-out;
  border-radius:50px;
 }
 
@@ -47,6 +47,7 @@ button:hover::before {
 }
 
 button:active {
+  transition: all 0.25s ease-in-out;
   background-color:#fc2f70;
 }
 
