@@ -6,28 +6,6 @@
   <link rel="icon" 
       type="image/png" 
       href="/game-console.png">
-  <SCRIPT>
-function passWord() {
-  if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
-    document.getElementById("iframe").style.display = "block";
-    document.getElementById("box-outer").style.display = "none";
-  } else{
-    alert("try again suckaa")
-  }
-  return 0;
-};
-document.getElementById("button").onclick = function(){
-  function passWord() {
-  if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
-    document.getElementById("iframe").style.display = "block";
-    document.getElementById("box-outer").style.display = "none";
-  } else{
-    alert("try again suckaa")
-  }
-  return 0;
-};
-}
-</SCRIPT>
 </head>
 <body oncontextmenu="return false">
   <div id="box-outer" class="box-outer">
@@ -39,6 +17,19 @@ document.getElementById("button").onclick = function(){
     </br>
     <button id="button">Submit Password</button>
   </div>
+<script>
+document.getElementById("button").onclick = function(){
+  function passWord() {
+    if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
+      document.getElementById("iframe").style.display = "block";
+      document.getElementById("box-outer").style.display = "none";
+    } else{
+      alert("try again suckaa")
+    }
+    return 0;
+  };
+}
+</script>
 <SCRIPT>
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
