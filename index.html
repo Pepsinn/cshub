@@ -45,22 +45,12 @@ $(document).keydown(function(e){
 </SCRIPT>
 <SCRIPT>
 function passWord() {
-  var testV = 1;
-  var pass1 = document.getElementById("box").value;while (testV < 3) {
-  if (!pass1) 
-    history.go(-1);
-  else if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
+  if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
     document.getElementById("iframe").style.display = "block";
     document.getElementById("box-outer").style.display = "none";
     break;
-  } 
-  testV+=1;
-  var pass1 = {
-    location.reload();
-  }
-  if (pass1.toLowerCase()!="password" & testV ==5){ 
-  history.go(-1);
-  return " ";
+  else{
+    alert("try again suckaa")
   }
 } 
 </SCRIPT>
