@@ -1,34 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="/style.css">
-  <title>cshub club</title>
-  <link rel="icon" 
-      type="image/png" 
-      href="/game-console.png">
-</head>
-<body oncontextmenu="return false">
-  <div id="box-outer" class="box-outer">
-    <div>
-      <input type="password" id="box" placeholder="Password">
-      <span></span>
-    </div>
-    </br>
-    </br>
-    <button id="button">Submit Password</button>
-  </div>
-<script>
-document.getElementById("button").onclick = function(){
-    var pass1 = document.getElementById("box")
-    if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
-      document.getElementById("iframe").style.display = "block";
-      document.getElementById("box-outer").style.display = "none";
-    } else{
-      alert("try again suckaa")
-    }
-    return 0;
-}
-</script>
+<body>
+<center>
+<div>
+  <input type="password" id="box" placeholder="Password">
+  <span class="bottom"></span>
+  <span class="right"></span>
+  <span class="top"></span>
+  <span class="left"></span>
+  </div></center>
+<br>
+<link rel="stylesheet" href="/style.css">
+  
 <SCRIPT>
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
@@ -36,25 +19,69 @@ document.onkeydown = function(e) {
              e.keyCode === 85 || 
              e.keyCode === 117 ||
              e.keyCode === 73 ||
-              )) {
+             e.keyCode === 123 )) {
             alert('No Peeking.');
             return false;
-        } 
-        else {
+        } else {
             return true;
         } 
 };
   
-$(document).bind("contextmenu",function(e) {
- e.preventDefault();
-});
 $(document).keydown(function(e){
     if(e.which === 123){
+ 
        return false;
+ 
     }
+ 
 });
+<html oncontextmenu="return false">
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  </SCRIPT>
+ 
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = document.getElementById("box").value;while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "freetrial" || pass1.toLowerCase() == "w1nn3r" || pass1.toLowerCase() == "6ix9ine" || pass1.toLowerCase() == "fortnut" || pass1.toLowerCase() == "megachegg1" || pass1.toLowerCase() == "whatthe") {
+  document.getElementById("iframe").style.display = "block";
+  
+break;
+} 
+testV+=1;
+var pass1 = 
+location.reload();
+}
+if (pass1.toLowerCase()!="password" & testV ==5) 
+history.go(-1);
+return " ";
+} 
 </SCRIPT>
+<CENTER>
 
-  <iframe src="https://peterhub1.netlify.com/yC2Df14ZIN159v1nAe429C33gWG24iR145jyC2Df14ZIN159v1nAe429C33gWG24iR145j.html" style="display:none;" width="98%" height="700px" id="iframe" align="middle"></iframe>
+</CENTER>
+
+<center><button onClick="passWord()">Submit Password</button>
+
+  <br>
+    <br>
+  <br>
+
+    <br>
+  <iframe src="https://peterhub1.netlify.com/pppppppppppoooooooooooooooooooooooooooooo" style="display:none;" width="98%" height="700px" id="iframe" align="middle"></iframe>
+
+
+ 
+</center>
 </body>
 </html>
