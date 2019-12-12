@@ -59,10 +59,9 @@ button:hover {
   transform: translate(-50%, -50%);
 }
 
-div:not #box-outer{
+div{
   position: relative;
-  margin-top: 0px;
-  margin-left: 0px;
+  
 }
 
 input {
